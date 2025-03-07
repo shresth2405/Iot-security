@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import { keccak256, toUtf8Bytes } from "ethers";
 
 const UnregisterDevice = () => {
-    const contractAddress = "0x1f85897aCaf2485AD8EFD0364efd03E1510680d1"; // Replace with deployed address
+    const contractAddress = "0x52EfCfAbdfFd47081834A51dD81bCB413795fC2a"; // Replace with deployed address
     const abi = [ // Contract ABI (only include needed functions)
         "function registerDevice(bytes32 deviceId) public",
         "function isDeviceRegistered(bytes32 deviceId) public view returns (bool)",

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { keccak256, toUtf8Bytes } from "ethers"; 
 import { BrowserProvider, Contract } from "ethers";
 
-const contractAddress = "0x1f85897aCaf2485AD8EFD0364efd03E1510680d1";
+const contractAddress = "0x52EfCfAbdfFd47081834A51dD81bCB413795fC2a";
 const abi = [
   "function isDeviceRegistered(bytes32 deviceId) public view returns (bool)"
 ];
